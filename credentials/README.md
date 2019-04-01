@@ -1,7 +1,8 @@
-# Credentials format
+# Credentials format and dependencies
 
-## Algorithmia
+## Algorithmia - get Wikipedia's content
 
+Dependence: `npm i algorithmia`
 File: `algorithmia.json`
 
 ```
@@ -10,8 +11,17 @@ File: `algorithmia.json`
 }
 ```
 
-## Watson Natural Language Undestanding
+## Readline-sync - get user's inputs
 
+Dependence: `npm i readline-sync`
+
+## Sentence Boundary Detection - break content into sentences
+
+Dependence: `npm i sbd`
+
+## Watson Natural Language Undestanding - fetch keywords of all sentences
+
+Dependence: `npm i watson-developer-cloud`
 File: `watson-nlu.json`
 
 ```
