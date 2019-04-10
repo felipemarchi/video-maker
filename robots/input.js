@@ -6,7 +6,16 @@ function robot() {
         maximumSentences: 7,
         searchTerm: askAndReturnSearchTerm(),
         prefix: askAndReturnPrefix()
-        // dynamic attributes: sourceContentOriginal, sourceContentSanitized, sentences[{ text, keywords[], images[], googleSearchQuery }]
+        /*  Others Attributes:
+            sourceContentOriginal,
+            sourceContentSanitized,
+            sentences[{
+                text,
+                keywords[],
+                images[],
+                googleSearchQuery
+            }]
+        */
     }
 
     state.save(content)

@@ -46,3 +46,7 @@ File: `google-search.json`
   "searchEngineId": "012176753112001157351:a1zna8bjz08"
 }
 ```
+
+## Image Downloader - download images from a link to a path
+
+Dependence: `npm i image-downloader`

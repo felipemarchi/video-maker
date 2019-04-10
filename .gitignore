@@ -59,7 +59,8 @@ typings/
 
 # next.js build output
 .next
-credentials/algorithmia.json
-credentials/watson-nlu.json
-credentials/google-search.json
-content.json
+
+# Custom
+credentials/*.json
+content/*.json
+content/*.png
