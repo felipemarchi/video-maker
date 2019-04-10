@@ -14,7 +14,8 @@ function robot() {
                 keywords[],
                 images[],
                 googleSearchQuery
-            }]
+            }],
+            downloadedImages[]
         */
     }
 
