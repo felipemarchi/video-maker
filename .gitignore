@@ -61,4 +61,5 @@ typings/
 .next
 credentials/algorithmia.json
 credentials/watson-nlu.json
+credentials/google-search.json
 content.json

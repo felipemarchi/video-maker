@@ -34,3 +34,15 @@ File: `watson-nlu.json`
   "url": "https://gateway.watsonplatform.net/natural-language-understanding/api"
 }
 ```
+
+## Google Cloud Custom Search - fetch images from google to each sentence
+
+Dependence: `npm i googleapis`
+File: `google-search.json`
+
+```
+{
+  "apikey": "<apikey>",
+  "searchEngineId": "012176753112001157351:a1zna8bjz08"
+}
+```
