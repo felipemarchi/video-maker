@@ -3,7 +3,7 @@
 ## Algorithmia - get Wikipedia's content
 
 Dependence: `npm i algorithmia`
-File: `algorithmia.json`
+File: `credentials/algorithmia.json`
 
 ```
 {
@@ -22,7 +22,7 @@ Dependence: `npm i sbd`
 ## Watson Natural Language Undestanding - fetch keywords of all sentences
 
 Dependence: `npm i watson-developer-cloud`
-File: `watson-nlu.json`
+File: `credentials/watson-nlu.json`
 
 ```
 {
@@ -38,15 +38,20 @@ File: `watson-nlu.json`
 ## Google Cloud Custom Search - fetch images from google to each sentence
 
 Dependence: `npm i googleapis`
-File: `google-search.json`
+File: `credentials/google-search.json`
 
 ```
 {
   "apikey": "<apikey>",
-  "searchEngineId": "012176753112001157351:a1zna8bjz08"
+  "searchEngineId": "<searchEngineId>"
 }
 ```
 
 ## Image Downloader - download images from a link to a path
 
 Dependence: `npm i image-downloader`
+
+## ImageMagick - edit and create images
+
+Dependence 1: You must install the ImageMagick (https://imagemagick.org/script/download.php)
+Dependence 2: `npm i gm`
