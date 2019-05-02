@@ -20,7 +20,9 @@ async function start() {
     await robots.text()
     
     /*  load state (file-system)
-        fetch images from google to each sentence (google-cloud-custom-search) */
+        fetch images from google to each sentence (google-cloud-custom-search)
+        download and save images (image-downloader)
+        save state (file-system) */
     await robots.image()
     
     /*  system output */

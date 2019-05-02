@@ -6,17 +6,6 @@ function robot() {
         maximumSentences: 7,
         searchTerm: askAndReturnSearchTerm(),
         prefix: askAndReturnPrefix()
-        /*  Others Attributes:
-            sourceContentOriginal,
-            sourceContentSanitized,
-            sentences[{
-                text,
-                keywords[],
-                images[],
-                googleSearchQuery
-            }],
-            downloadedImages[]
-        */
     }
 
     state.save(content)
